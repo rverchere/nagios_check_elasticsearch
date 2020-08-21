@@ -10,7 +10,6 @@ Published under MIT license
 import sys
 import argparse
 import json
-from pprint import pprint
 from elasticsearch import Elasticsearch
 
 __author__ = "Rémi Verchère"
