@@ -49,7 +49,7 @@ optional arguments:
 ## Example
 
 ```sh
-$ query_elasticsearch.py -H http://172.20.6.208:9200 -U elastic -P password -i filebeat-7.6.0 -q '{"match_phrase":{"event.type":"authentication_failure"}}' '{"match_phrase":{"host.hostname":"my-server"}}' -a "user.name" -w 10 -c 20 -d -p7d
+$ query_elasticsearch.py -H http://127.0.0.1:9200 -U elastic -P password -i filebeat-7.6.0 -q '{"match_phrase":{"event.type":"authentication_failure"}}' '{"match_phrase":{"host.hostname":"my-server"}}' -a "user.name" -w 10 -c 20 -d -p7d
 OK: 9 results found in last 7d. See details below.
  - hacker found 6 times
  - remi found 3 times
