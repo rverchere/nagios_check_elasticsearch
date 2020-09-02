@@ -15,7 +15,7 @@ Tested with Elasticsearch version 7.x
 ## Usage:
 
 ```sh
-query_elasticsearch_acb.py [-h] -H HOSTNAME -U USERNAME -P PASSWORD -i
+query_elasticsearch.py [-h] -H HOSTNAME -U USERNAME -P PASSWORD -i
                                   INDEX -q QUERY [QUERY ...] [-a AGGS]
                                   [-p PERIOD] [-w [WARNING]] [-c [CRITICAL]]
                                   [-d] [-v]
